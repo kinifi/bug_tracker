@@ -12,3 +12,16 @@ Labels Model:
 * color:string - contains the RGB values for the color of the label. To be used with color_field on the front end.
 
 -----------------------
+
+## Bugs
+
+Bug Model: 
+* title:string
+* description:text
+* rating:integer
+* changeset:string
+
+Models that belong to Bug Model: 
+* User
+* Labels
+* Milestones
